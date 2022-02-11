@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="08a4d9f7-e47f-4d47-9fe7-129848c5d4e8" data-root-id="1003"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1186">
+          {"538c056d-b85f-490e-ad45-55e5fe1900bd":{"defs":[],"roots":{"references":[{"attributes":{},"id":"1025","type":"SaveTool"},{"attributes":{"coordinates":null,"group":null,"items":[{"id":"1053"}],"label_text_font_size":"10px"},"id":"1052","type":"Legend"},{"attributes":{},"id":"1026","type":"ResetTool"},{"attributes":{"label":{"field":"Joueurs"},"renderers":[{"id":"1040"}]},"id":"1053","type":"LegendItem"},{"attributes":{},"id":"1049","type":"UnionRenderers"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1027","type":"BoxAnnotation"},{"attributes":{},"id":"1050","type":"Selection"},{"attributes":{"factors":["Cameroun","Cameroun1","Senegal","Maroc","Malawi","Mali"],"palette":["#084594","#2171b5","#4292c6","#6baed6","#9ecae1","#c6dbef","#deebf7","#f7fbff"]},"id":"1035","type":"CategoricalColorMapper"},{"attributes":{"axis":{"id":"1014"},"coordinates":null,"group":null,"ticker":null},"id":"1017","type":"Grid"},{"attributes":{"align":"center","background_fill_color":"#f9fd00","coordinates":null,"group":null,"text":"Statistics of the Goals Scored by CAN 2021 Players","text_color":"green","text_font_size":"100xp"},"id":"1004","type":"Title"},{"attributes":{"factors":["Cameroun","Cameroun1","Senegal","Maroc","Malawi","Mali"]},"id":"1008","type":"FactorRange"},{"attributes":{"data":{"Buts":[8,5,3,3,3,3],"Images":["https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(webp):focal(1476x337:1478x335)/origin-imgresizer.eurosport.com/2022/01/12/3284851-67214288-2560-1440.jpg","https://www.vudaf.com/wp-content/uploads/2021/10/Ekambi-buteur-lyonnais.jpg","https://i.la-croix.com/729x0/smart/2022/02/07/1201198995/Sadio-Manede-victoire-Senegal-finale-Can-dimanche-6-fevrier-2022_0.jpg","https://static.onzemondial.com/photo_article/747162/293636/1200-L-can-2021-maroc-l-incroyable-moment-chang-entre-un-journaliste-et-sofiane-boufal.jpg","https://infos-sport.com/wp-content/uploads/2022/01/Gabadinho-Mhango.jpeg","https://www.jeuneafrique.com/medias/2022/01/25/jad20220125-ass-cameroun-can-mali-kone2-592x296-1643193777.jpg"],"Joueurs":["Vincent Aboubakar","Karl Toko Ekambi","Sadio Mane","Sofiane Boufal","Gabadinho Mhango","Ibrahima Kone"],"Pays":["Cameroun","Cameroun1","Senegal","Maroc","Malawi","Mali"],"index":[0,1,2,3,4,5]},"selected":{"id":"1050"},"selection_policy":{"id":"1049"}},"id":"1002","type":"ColumnDataSource"},{"attributes":{},"id":"1010","type":"LinearScale"},{"attributes":{},"id":"1012","type":"CategoricalScale"},{"attributes":{},"id":"1024","type":"ZoomOutTool"},{"attributes":{"tools":[{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1026"},{"id":"1054"}]},"id":"1028","type":"Toolbar"},{"attributes":{"axis_label":"Goals Scored","coordinates":null,"formatter":{"id":"1047"},"group":null,"major_label_policy":{"id":"1048"},"ticker":{"id":"1015"}},"id":"1014","type":"LinearAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"Pays","transform":{"id":"1035"}},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"orange"},"height":{"value":0.4},"line_alpha":{"value":0.1},"line_color":{"value":"orange"},"right":{"field":"Buts"},"y":{"field":"Pays"}},"id":"1038","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"Pays","transform":{"id":"1035"}},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"orange"},"height":{"value":0.4},"line_alpha":{"value":0.2},"line_color":{"value":"orange"},"right":{"field":"Buts"},"y":{"field":"Pays"}},"id":"1039","type":"HBar"},{"attributes":{},"id":"1015","type":"BasicTicker"},{"attributes":{"below":[{"id":"1014"}],"center":[{"id":"1017"},{"id":"1020"},{"id":"1052"}],"left":[{"id":"1018"}],"renderers":[{"id":"1040"}],"title":{"id":"1004"},"toolbar":{"id":"1028"},"width":1000,"x_range":{"id":"1006"},"x_scale":{"id":"1010"},"y_range":{"id":"1008"},"y_scale":{"id":"1012"}},"id":"1003","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1044","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1006","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"Pays","transform":{"id":"1035"}},"hatch_color":{"value":"orange"},"height":{"value":0.4},"line_color":{"value":"orange"},"right":{"field":"Buts"},"y":{"field":"Pays"}},"id":"1037","type":"HBar"},{"attributes":{"coordinates":null,"data_source":{"id":"1002"},"glyph":{"id":"1037"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1039"},"nonselection_glyph":{"id":"1038"},"view":{"id":"1041"}},"id":"1040","type":"GlyphRenderer"},{"attributes":{},"id":"1045","type":"AllLabels"},{"attributes":{},"id":"1047","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"1002"}},"id":"1041","type":"CDSView"},{"attributes":{"callback":null,"tooltips":"\n  &lt;div&gt;\n    &lt;h3&gt;@Pays&lt;/h3&gt;\n    &lt;div&gt;&lt;/strong&gt;&lt;h3&gt;@Joueurs&lt;/h3&gt;&lt;/div&gt;\n    &lt;div&gt;&lt;strong&gt;Goals Scored: &lt;/strong&gt;@Buts&lt;/div&gt;\n    &lt;div&gt;&lt;img src=\"@Images\" alt=\"\" width=\"200\"/&gt;&lt;/div&gt;\n  &lt;/div&gt;\n"},"id":"1054","type":"HoverTool"},{"attributes":{"coordinates":null,"formatter":{"id":"1044"},"group":null,"major_label_policy":{"id":"1045"},"ticker":{"id":"1019"}},"id":"1018","type":"CategoricalAxis"},{"attributes":{},"id":"1048","type":"AllLabels"},{"attributes":{"axis":{"id":"1018"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1020","type":"Grid"},{"attributes":{},"id":"1019","type":"CategoricalTicker"},{"attributes":{"overlay":{"id":"1027"}},"id":"1022","type":"BoxSelectTool"},{"attributes":{},"id":"1021","type":"PanTool"},{"attributes":{},"id":"1023","type":"ZoomInTool"}],"root_ids":["1003"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('1186').textContent;
+                  const render_items = [{"docid":"538c056d-b85f-490e-ad45-55e5fe1900bd","root_ids":["1003"],"roots":{"1003":"08a4d9f7-e47f-4d47-9fe7-129848c5d4e8"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
